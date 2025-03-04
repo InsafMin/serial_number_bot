@@ -31,7 +31,7 @@ cd serial_number_bot
 Передайте токен бота через переменную окружения:
 
 ```bash
-BOT_TOKEN=7832141370:AAGKTsMghkOzjPl7oCb8Mm01ckdNTYTZaOo docker-compose up --build
+BOT_TOKEN=<ТОКЕН БОТА> docker-compose up --build
 ```
 
 #### 4. Остановка бота:
