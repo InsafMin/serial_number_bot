@@ -36,12 +36,11 @@ def find_serial_number(serial_number, df):
 
     result = df[df['серийный номер'].astype(str).str.strip() == serial_number]
     if not result.empty:
-        # Форматируем строку: "название колонки - значение"
         formatted_result = []
         for _, row in result.iterrows():
             for col in df.columns:
                 formatted_result.append(f"{col} - {row[col]}")
-        return "\n".join(formatted_result)  # Объединяем строки через перенос
+        return "\n".join(formatted_result)
     else:
         return "Серийный номер не найден."
 

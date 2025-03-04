@@ -24,14 +24,14 @@
 #### 2. Клонируйте репозиторий (если ещё не сделали):
 ```bash
 git clone https://github.com/InsafMin/serial_number_bot
-cd serial_number_bot
+cd serial_number_botff
 ```
 
 #### 3. Запустите бота с помощью Docker Compose:
 Передайте токен бота через переменную окружения:
 
 ```bash
-BOT_TOKEN=<ТОКЕН БОТА> docker-compose up --build
+BOT_TOKEN=7832141370:AAGKTsMghkOzjPl7oCb8Mm01ckdNTYTZaOo docker-compose up --build
 ```
 
 #### 4. Остановка бота:
@@ -112,6 +112,6 @@ docker-compose down
 
 Если у вас есть вопросы или предложения, свяжитесь со мной:
 
-- **Email**: (insaf.min.in@yandex.ru)[mailto:insaf.min.in@yandex.ru]
+- **Email**: [insaf.min.in@yandex.ru](mailto:insaf.min.in@yandex.ru)
 - **Telegram**: [@Insaf_Min](https://t.me/Insaf_Min)
 - **GitHub**: [InsafMin](https://github.com/InsafMin)
